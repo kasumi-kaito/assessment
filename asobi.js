@@ -28,4 +28,3 @@ const a = document.querySelector('div')
 a.animate({
   opacity: [0, 1]
 }, 1500)
-
