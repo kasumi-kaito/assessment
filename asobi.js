@@ -29,11 +29,3 @@ a.animate({
   opacity: [0, 1]
 }, 1500)
 
-function c() {
-    if (hazu.className == null || hazu.className=="") {
-      hazu.className = "active";
-    } else {
-      hazu.className = "";
-    }
-  }
-
