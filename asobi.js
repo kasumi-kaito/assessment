@@ -10,3 +10,7 @@ function jump(){
     document.getElementById('hazu').innerHTML = "パスワードが間違っています";
 }
 }
+const div = document.querySelector('div')
+div.animate({
+  opacity: [0, 1]
+}, 1500)
