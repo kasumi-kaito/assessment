@@ -4,6 +4,9 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-p {
+#hazu {
   color: brown;
+}
+#hazu.active{
+ color: forestgreen;
 }
