@@ -3,10 +3,10 @@ body {
     width: 500px;
     margin-right: auto;
     margin-left: auto;
-};
-#hazu {
-  color: brown;
-}
-#hazu.active{
- color: aqua;
-};
+  }
+  #hazu {
+    color: crimson;
+  }
+ #hazu.active{
+   color: chartreuse;
+ }
