@@ -12,5 +12,8 @@ body {
  }
  .hato {
    color: darkmagenta;
-      font-size: 44px;
- };
+   font-size: 44px;
+ }
+ .hato:hover{
+   color: red;
+ }
