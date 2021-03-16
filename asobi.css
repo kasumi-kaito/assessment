@@ -10,3 +10,7 @@ body {
  #hazu.active{
    color: chartreuse;
  }
+ .hato {
+   color: darkmagenta;
+   font-size: 44px;
+ }
