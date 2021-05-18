@@ -5,10 +5,10 @@ function jump(){
     }
     else if(pp.value ===''){
         document.getElementById('hazu').innerHTML = "パスワードが入力されていません"
-        if (hazu.className=="active") {
+        if (hazu.className=="u") {
           hazu.className = "hazu";
         } else {
-          hazu.className ="active";
+          hazu.className ="u";
         } }
     else if(pp.value ==='藤岡'){
         location.href ="https://www.google.com/search?q=n%E9%AB%98&oq=&aqs=chrome.0.69i59i450l8.575409440j0j15&sourceid=chrome&ie=UTF-8"
@@ -16,7 +16,7 @@ function jump(){
  else {
     document.getElementById('hazu').innerHTML = "パスワードが間違っています";
     if (hazu.className=="hazu") {
-      hazu.className = "active";
+      hazu.className = "u";
     } else {
       hazu.className = "hazu";
     }}}
